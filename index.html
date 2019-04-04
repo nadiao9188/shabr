@@ -39,12 +39,44 @@
         color: white;
     }
 
-    #landing h1 {
-        font-size: 100px;
+    h1 {
+        font-size: 60px;
+        font-family: "Anton";
     }
 
-    #landing h2 {
+    h2 {
         font-size: 30px;
+    }
+
+    @media(min-width:768px) {
+        h1 {
+            font-size: 80px
+        }
+        h2 {
+            font-size: 35px
+        }
+    }
+
+    /* only for md devices */
+
+    @media(min-width:992px) {
+        h1 {
+            font-size: 110px
+        }
+        h2 {
+            font-size: 45px
+        }
+    }
+
+    /* only for lg devices */
+
+    @media(min-width:1200px) {
+        h1 {
+            font-size: 130px
+        }
+        h2 {
+            font-size: 50px
+        }
     }
 </style>
 
