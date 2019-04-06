@@ -17,7 +17,7 @@
     <!--custom-->
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="nav.css">
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kumar+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kumar+One" rel="stylesheet">
     <script src="script.js"></script>
 </head>
 
@@ -37,6 +37,10 @@
         padding: 100px;
     }
 
+    .jumbotron {
+        padding: 30px;
+    }
+
     #copyright {
         text-align: center;
     }
@@ -50,7 +54,7 @@
 
     h1 {
         font-size: 60px;
-   font-family: 'Kumar One', cursive;
+        font-family: 'Kumar One', cursive;
 
         text-align: center;
     }
@@ -60,17 +64,20 @@
         text-align: center;
         font-family: 'Kumar One', cursive;
     }
-    h3{
-        font-size:10px;
+
+    h3 {
+        font-size: 10px;
         font-family: 'Indie Flower', cursive;
-        
+
     }
-         p{
-            font-family: 'Indie Flower', cursive;
-        }
-        td{
-            font-family: 'Indie Flower', cursive;
-        }
+
+    p {
+        font-family: 'Indie Flower', cursive;
+    }
+
+    td {
+        font-family: 'Indie Flower', cursive;
+    }
 
     @media(min-width:768px) {
         h1 {
@@ -79,8 +86,8 @@
         h2 {
             font-size: 35px
         }
-        h3{
-            font-size:15px;
+        h3 {
+            font-size: 15px;
         }
     }
 
@@ -93,10 +100,10 @@
         h2 {
             font-size: 45px
         }
-          h3{
-            font-size:35px;
+        h3 {
+            font-size: 35px;
         }
-       
+
     }
 
     /* only for lg devices */
@@ -108,8 +115,8 @@
         h2 {
             font-size: 50px
         }
-          h3{
-            font-size:25px;
+        h3 {
+            font-size: 25px;
         }
 
     }
@@ -136,11 +143,11 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                     </li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Info</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                 </ul>
@@ -157,38 +164,35 @@
     </header>
 
     <!--home-->
-    <div class="container-fluid">
-        <div class="jumbotron">
-            <h1><b>Fun for Everyone</b></h1>
-            <p>Come make a new memory with us.</p>
-            <p> There's nothing else like it.</p>
-            <p>Let me show you around.</p>
-            <p>Fun for both adults and kids. All are welcome!</p>
-            <p>Afraid of heights? You won't be after you slow-dance with the sky.</p>
+    <div class="jumbotron">
+        <h1><b>Fun for Everyone</b></h1>
+        <p>Come make a new memory with us.</p>
+        <p> There's nothing else like it.</p>
+        <p>Let me show you around.</p>
+        <p>Fun for both adults and kids. All are welcome!</p>
+        <p>Afraid of heights? You won't be after you slow-dance with the sky.</p>
 
-        </div>
     </div>
 
     <!--Information-->
-    <div class="container-fluid">
-        <div class="jumbotron">
-            <h1>Info</h1>
-            <p><b>Time <span class="glyphicon glyphicon-time"></span></p>  </b></p>
-            <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead
-                for the exact meeting time.</p>
-            <p><b> Weather <span class="glyphicon glyphicon-cloud"></span></p>    </b></p>
-            <p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow
-                their balloon flight.</p>
-            <p><b>Flight<span class="glyphicon glyphicon-plane"></span></b></p>
-            <p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
-            <p><b>Participation <span class="glyphicon glyphicon-pushpin"></span></b></p>
-            <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+    <div class="jumbotron" id="info">
+        <h1>Info</h1>
+        <p><b>Time <span class="glyphicon glyphicon-time"></span></p>  </b></p>
+        <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for
+            the exact meeting time.</p>
+        <p><b> Weather <span class="glyphicon glyphicon-cloud"></span></p>    </b></p>
+        <p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow
+            their balloon flight.</p>
+        <p><b>Flight<span class="glyphicon glyphicon-plane"></span></b></p>
+        <p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+        <p><b>Participation <span class="glyphicon glyphicon-pushpin"></span></b></p>
+        <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
 
-        </div>
     </div>
 
+    <!--testimonials-->
     <div class="container">
-        <table class="table table-bordered">
+        <table class="table table-bordered" id="testimonials">
             <h2>Testimonials: Just a few of our happy customers</h2>
             <tbody>
                 <tr>
@@ -207,9 +211,8 @@
 
         </table>
     </div>
-
     <!--gallery carousel-->
-    <div class="container">
+    <div class="container" id="gallery">
         <h2>Gallery <span class="glyphicon glyphicon-film"></span></h2>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -261,7 +264,7 @@
         </div>
     </div>
     <!--contact-->
-    <div class="container">
+    <div class="container" id="contact">
         <h2><b></b>Contact Information</b>
         </h2>
         <h3><i>We'd love to hear from you</i></h3>
