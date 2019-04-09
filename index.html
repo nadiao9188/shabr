@@ -63,8 +63,8 @@
     h1 {
         font-size: 60px;
         font-family: 'Kumar One';
-
         text-align: center;
+        padding: 20px;
     }
 
     h2 {
@@ -94,18 +94,25 @@
     }
 
 
-    table.table-bordered {
-        border: 1px solid lightskyblue;
-        margin-top: 20px;
-    }
+    /*table.table-bordered {*/
 
-    table.table-bordered>thead>tr>th {
-        border: 1px solid lightskyblue;
-    }
+    /*    border: 1px solid none;*/
 
-    table.table-bordered>tbody>tr>td {
-        border: 1px solid lightskyblue;
-    }
+    /*    margin-top: 20px;*/
+
+    /*}*/
+
+    /*table.table-bordered>thead>tr>th {*/
+
+    /*    border: 1px solid none;*/
+
+    /*}*/
+
+    /*table.table-bordered>tbody>tr>td {*/
+
+    /*    border: 1px solid none;*/
+
+    /*}*/
 
     @media(min-width:768px) {
         h1 {
@@ -192,8 +199,8 @@
     </header>
 
     <!--home-->
+    <h1>Fun for Everyone</h1>
     <div class="jumbotron">
-        <h1><b>Fun for Everyone</b></h1>
         <p>Come make a new memory with us.</p>
         <p> There's nothing else like it.</p>
         <p>Let me show you around.</p>
@@ -203,8 +210,8 @@
     </div>
 
     <!--Information-->
+    <h1>Info</h1>
     <div class="jumbotron" id="info">
-        <h1>Info</h1>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <h4>Time <span class="glyphicon glyphicon-time"></span></p>
@@ -234,9 +241,10 @@
     </div>
 
     <!--testimonials-->
-    <div class="container">
-        <table class="table table-bordered" id="testimonials">
-            <h2>Testimonials: Just a few of our happy customers</h2>
+    <h1>Testimonials:</h1>
+    <h2>Just a few of our happy customers</h2>
+    <div class="jumbotron">
+        <table class="table table-borderless" id="testimonials">
             <tbody>
                 <tr>
                     <td><b>"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.</b></td>
